@@ -28,7 +28,7 @@ public class ServiceController {
 
     @GetMapping
     public String testApi() {
-        return "in api";
+        return "in api, in ServiceController";
     }
 
     // Autowired merge si pe setter, pt fiecare proprietate de care am nevoie, va trebui sa creez un
